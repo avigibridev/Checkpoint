@@ -1,0 +1,123 @@
+/* General Styling */
+.users-table-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Table Styling */
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .users-table th, .users-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .users-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .users-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .users-table td button {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .users-table td button:hover {
+    background-color: #e74c3c;
+  }
+  
+  .status {
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .status.completed {
+    color: green;
+  }
+  
+  .status.processing {
+    color: blue;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Add New User Form */
+  .form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    display: grid;
+    gap: 10px;
+  }
+  
+  .form-container input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-container input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .add-user-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-user-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .add-user-btn:disabled {
+    background-color: #e1e1e1;
+    cursor: not-allowed;
+  }
+  
+  /* Loading & No Users Messages */
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-top: 20px;
+  }
+  
+  p.error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
